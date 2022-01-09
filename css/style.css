@@ -48,3 +48,34 @@ header {
   text-align: center;
   padding: 0 8px;
 }
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: rgba(255, 255, 255, 0.739);
+}
+
+nav span:first-child {
+  font-size: 10px;
+}
+
+nav span:nth-child(2) {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+nav a i {
+  font-size: 20px;
+  color: #ffffff;
+}
