@@ -75,7 +75,18 @@ nav span:nth-child(2) {
   font-weight: 800;
 }
 
-nav a i {
+.cart {
+  display: flex;
+  flex-direction: row;
+}
+
+.cart a i {
   font-size: 20px;
   color: #ffffff;
+  margin-top: 5px;
+}
+
+.cart > small {
+  color: #ffffff;
+  font-weight: 800;
 }
