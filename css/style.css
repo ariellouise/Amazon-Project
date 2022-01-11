@@ -104,11 +104,15 @@ nav span:nth-child(2) {
 }
 
 .sponsored {
-  font-size: 10px;
+  font-size: 14px;
   background-color: beige;
 }
 
 .disclaimer {
-  font-size: 10px;
+  font-size: 14px;
   background-color: beige;
+}
+
+.breadcrumbs {
+  font-size: 12px;
 }
