@@ -95,5 +95,10 @@ nav span:nth-child(2) {
   background-color: gray;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 50px;
+}
+
+.sublinks {
+  background-color: beige;
+  text-align: center;
+  color: #000000;
 }
