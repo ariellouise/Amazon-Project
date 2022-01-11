@@ -92,9 +92,10 @@ nav span:nth-child(2) {
 }
 
 .activelinks {
-  background-color: gray;
+  background-color: #222f3e;
   text-align: center;
   color: #ffffff;
+  font-size: 12px;
 }
 
 .sublinks {
