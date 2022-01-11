@@ -98,7 +98,17 @@ nav span:nth-child(2) {
 }
 
 .sublinks {
-  background-color: beige;
+  background-color: #fafafa;
   text-align: center;
   color: #000000;
+}
+
+.sponsored {
+  font-size: 10px;
+  background-color: beige;
+}
+
+.disclaimer {
+  font-size: 10px;
+  background-color: beige;
 }
