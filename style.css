@@ -1,0 +1,35 @@
+.redBorder {
+  border: 3px solid;
+  border-color: red;
+  color: black;
+}
+
+.blueBorder {
+  border: 3px solid;
+  border-color: blue;
+  color: black;
+}
+
+.yellowBorder {
+  border: 3px solid;
+  border-color: yellow;
+  color: black;
+}
+
+.greenBorder {
+  border: 3px solid;
+  border-color: green;
+  color: black;
+}
+
+.pinkBorder {
+  border: 3px solid;
+  border-color: pink;
+  color: black;
+}
+
+.grayBorder {
+  border: 3px solid;
+  border-color: gray;
+  color: black;
+}
