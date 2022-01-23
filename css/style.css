@@ -1,7 +1,6 @@
 .redBorder {
-  border: 3px solid;
-  border-color: red;
-  color: black;
+  background-color: #131921;
+  color: white;
 }
 
 .blueBorder {
@@ -10,11 +9,11 @@
   color: black;
 }
 
-.yellowBorder {
+/* .yellowBorder {
   border: 3px solid;
   border-color: yellow;
   color: black;
-}
+} */
 
 .greenBorder {
   border: 3px solid;
@@ -38,3 +37,7 @@
   height: 150px;
   width: 150px;
 }
+
+/* .basic-addon2 {
+  background-color: #febd68;
+} */
