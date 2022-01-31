@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="/css/style.css " />
   </head>
   <body>
-    <div class="row redBorder">
-      <div class="col-3 logo">
-        <img src="/images/logo.png" class="img-fluid" alt="logo" />
+    <div class="row redBorder" id="navbar">
+      <div class="col-2">
+        <img src="../images/logo.png" id="logo" alt="logo" />
       </div>
       <div class="col">
         <i class="fa fa-map-marker" aria-hidden="true" style="color: white"></i
@@ -32,7 +32,15 @@
       </div>
       <div class="col-5">
         <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon">All </span>
+          <span class="input-group-text" id="basic-addon"
+            >All<br />
+            <i
+              class="fa fa-sort-desc"
+              aria-hidden="true"
+              style="color: black"
+            ></i
+          ></span>
+
           <input
             type="text"
             class="form-control"
@@ -44,12 +52,6 @@
             ><i class="fas fa-search"></i
           ></span>
         </div>
-        <!-- <form action="#">
-          <div class="search-box">
-            <input type="search" />
-            <i class="fas fa-search"></i>
-          </div>
-        </form> -->
       </div>
       <div class="col dropdown">
         <a
@@ -61,6 +63,11 @@
           aria-expanded="false"
         >
           <i class="fas fa-flag-usa" style="color: white"></i>
+          <i
+            class="fa fa-sort-desc"
+            aria-hidden="true"
+            style="color: white"
+          ></i>
         </a>
 
         <ul
@@ -68,10 +75,12 @@
           aria-labelledby="dropdownMenuLink"
           style="color: white"
         >
-          <!-- <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-  <label class="form-check-label" for="flexRadioDefault1"> -->
-          <li><a class="dropdown-item" href="#">English</a></li>
-          <li><a class="dropdown-item" href="#">Spanish</a></li>
+          <li>
+            <a class="dropdown-item" href="#"><input type="radio" />English</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#"><input type="radio" />Spanish</a>
+          </li>
           <li>
             <a
               class="dropdown-item"
@@ -95,7 +104,7 @@
         <a
           href="https://www.amazon.com/gp/css/homepage.html?ref_=nav_youraccount_btn"
           style="color: white"
-          >Hello, Ariel <br />Accounts & Lists</a
+          ><span>Hello, Ariel</span> <br /><span>Accounts & Lists</span></a
         >
       </div>
       <div class="col style=color:white">
@@ -116,7 +125,12 @@
     <div class="row blueBorder">
       <div class="col-10">
         <span style="font-size: 14px">
-          <i class="fas fa-bars">All</i>
+          <i class="fa fa-bars"> All</i>
+          <i
+            class="fa fa-sort-desc"
+            aria-hidden="true"
+            style="color: black"
+          ></i>
         </span>
         <span style="font-size: 14px"
           ><a
@@ -204,7 +218,7 @@
         <a
           href="https://www.amazon.com/stores/page/9C11E6D5-E4C4-43C0-80DA-FA828D18D930/?_encoding=UTF8&store_ref=SB_A064778236DG245CNICG8&pd_rd_plhdr=t&aaxitk=125e6d256115adc4173ee281478370fe&hsa_cr_id=7694698210701&lp_asins=B07R8GD47V%2CB07SK8X1ZQ%2CB07SKCTNNS&lp_query=goli&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_logo&pd_rd_w=T4tyN&pf_rd_p=488a18be-6d86-4de0-8607-bd4ea4b560f3&pd_rd_wg=MAw99&pf_rd_r=Q269FT1REMH43ZPGGT22&pd_rd_r=04be43cb-22f7-4672-b3d6-3eab5e8d1ef0"
           ><img
-            src="/images/hero-background.jpeg"
+            src="../images/hero-background.jpeg"
             class="img-fluid"
             alt="background"
         /></a>
@@ -219,7 +233,7 @@
           <div class="col">
             <a
               href="https://www.amazon.com/Binging-Babish-Recipes-Recreated-Favorite/dp/1328589897/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
-              ><img src="/images/babish.jpg" class="img-fluid" alt="babish" />
+              ><img src="../images/babish.jpg" class="img-fluid" alt="babish" />
             </a>
           </div>
           <div class="col">
@@ -227,7 +241,7 @@
               href="https://www.amazon.com/Matty-Matheson-Home-Style-Cookery/dp/1419747487/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
             >
               <img
-                src="/images/mattmaeson.jpg"
+                src="../images/mattmaeson.jpg"
                 class="img-fluid"
                 alt="matt matheson"
             /></a>
@@ -253,7 +267,7 @@
               href="https://www.amazon.com/Joshua-Weissman-Unapologetic-Cookbook/dp/1615649980/ref=sr_1_1?crid=3KV731G4KMII4&keywords=joshua+weissman+cookbook&qid=1642955939&s=books&sprefix=josh%2Cstripbooks%2C96&sr=1-1"
             >
               <img
-                src="/images/joshua.jpg"
+                src="../images/joshua.jpg"
                 class="img-fluid"
                 alt="joshua weissman"
             /></a>
@@ -263,7 +277,7 @@
               href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
             >
               <img
-                src="/images/supersimple.jpg"
+                src="../images/supersimple.jpg"
                 class="img-fluid"
                 alt="super simple"
             /></a>
@@ -295,7 +309,7 @@
             <a
               href="https://www.amazon.com/Scyavuru-Black-Fig-Jam-Ounce/dp/B01B047HFA?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01B047HFA&psc=1&ref_=pd_bap_d_rp_4_t"
             >
-              <img src="/images/fig.jpg" class="img-fluid" alt="fig spread"
+              <img src="../images/fig.jpg" class="img-fluid" alt="fig spread"
             /></a>
           </div>
           <div class="col">
@@ -303,7 +317,7 @@
               href="https://www.amazon.com/King-Arthur-Flour-Measure-Gluten/dp/B01JJ9H1Q8?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01JJ9H1Q8&psc=1&ref_=pd_bap_d_rp_3_t"
             >
               <img
-                src="/images/gfflour.jpg"
+                src="../images/gfflour.jpg"
                 class="img-fluid"
                 alt="gluten free flour"
             /></a>
@@ -315,7 +329,7 @@
               href="https://www.amazon.com/Wild-Berry-Incense-Sticks-Seller/dp/B016P3VFN6?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B016P3VFN6&psc=1&ref_=pd_bap_d_rp_24_t"
             >
               <img
-                src="/images/incense.jpg"
+                src="../images/incense.jpg"
                 class="img-fluid"
                 alt="incense sticks"
             /></a>
@@ -325,7 +339,7 @@
               href="https://www.amazon.com/Wonderful-Pistachios-Roasted-Salted-Ounce/dp/B0042DIZIU?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B0042DIZIU&psc=1&ref_=pd_bap_d_rp_1_t"
             >
               <img
-                src="/images/pistachios.jpg"
+                src="../images/pistachios.jpg"
                 class="img-fluid"
                 alt="pistachios"
             /></a>
@@ -354,7 +368,7 @@
             <a
               href="https://www.amazon.com/Ceramic-Decorative-Bracelet-Earrings-Engagement/dp/B08L6LLZQ2/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
               ><img
-                src="/images/heartplate.jpg"
+                src="../images/heartplate.jpg"
                 class="img-fluid"
                 alt="heart plate"
             /></a>
@@ -385,7 +399,7 @@
             <a
               href="https://www.amazon.com/FaceTory-Portable-Beauty-Fridge-Capacity/dp/B07THDQXF8/?_encoding=UTF8&pd_rd_w=mLiDp&pf_rd_p=03bef33a-a357-4fe3-9505-7fd4d6236957&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=2f72004b-47ee-4fa9-9afb-687f6c61000a&pd_rd_wg=kt8e9&ref_=pd_gw_ci_mcx_mr_hp_d"
               ><img
-                src="/images/facetory.jpg"
+                src="../images/facetory.jpg"
                 class="img-fluid"
                 alt="face fridge"
             /></a>
@@ -421,21 +435,14 @@
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row redBorder">
-          <div class="col-8 grayBorder">
-            <div class="row">
-              <div class="col grayBorder">Video Recommended Title</div>
-            </div>
-            <div class="row">
-              <div class="col grayBorder">Video Title</div>
-            </div>
-          </div>
-          <div class="col pinkBorder">
-            <div class="row">
-              <div class="col grayBorder">Title</div>
-            </div>
-          </div>
+        <div class="row greenBorder"><a href="#">Back To Top</a></div>
+        <div class="row pinkBorder">
+          <div class="col-3">Links</div>
+          <div class="col-3">Links</div>
+          <div class="col-3">Links</div>
+          <div class="col-3">Links</div>
         </div>
+        <div class="row greenBorder">Logo Buttons Buttons</div>
       </div>
     </div>
 

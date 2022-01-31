@@ -33,11 +33,17 @@
   color: black;
 }
 
-.logo {
-  height: 150px;
-  width: 150px;
-}
-
 /* .basic-addon2 {
   background-color: #febd68;
 } */
+
+#navbar > .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#navbar #logo {
+  height: auto;
+  width: 120px;
+  padding: 15px;
+}
