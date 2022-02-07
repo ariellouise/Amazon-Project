@@ -3,11 +3,11 @@
   color: white;
 }
 
-.blueBorder {
+/* .blueBorder {
   border: 3px solid;
   border-color: blue;
   color: black;
-}
+} */
 
 /* .yellowBorder {
   border: 3px solid;
@@ -15,7 +15,7 @@
   color: black;
 } */
 
-.redBorder {
+/* .redBorder {
   border: 3px solid;
   border-color: red;
   color: black;
@@ -37,7 +37,7 @@
   border: 3px solid;
   border-color: gray;
   color: black;
-}
+} */
 
 /* .basic-addon2 {
   background-color: #febd68;
@@ -83,9 +83,9 @@
   font-size: 21px;
 }
 
-#shopping > .col-4 {
+/* #shopping > .col-4 {
   border: 3px solid green;
-}
+} */
 
 #heroCol {
   padding: 0;
@@ -130,4 +130,9 @@
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+.vdayImage {
+  height: 220px;
+  align-items: center;
 }
