@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--Make rows and columns classes because you will reuse those but only one navbar so make that an ID-->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,509 +15,462 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="/css/style.css " />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div class="container-fluid">
-    <div class="row navbar" id="navbar">
-      <div class="col-2">
-        <img src="../images/white-amazon-logo-white.png" id="logo" alt="logo" />
+    <header>
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-xl-1">
+            <div class="logo">
+              <a href="#"
+                ><img src="/images/white-amazon-logo-white.png" alt="logo"
+              /></a>
+            </div>
+          </div>
+          <div class="col-xl-8">
+            <form action="#">
+              <div class="search-box">
+                <input type="search" />
+                <i class="fas fa-search"></i>
+              </div>
+            </form>
+          </div>
+          <div class="col-xl-3">
+            <nav>
+              <a href="#">
+                <span>Hello</span>
+                <span>Sign In</span>
+              </a>
+              <a href="#">
+                <span>Returns</span>
+                <span>& Orders</span>
+              </a>
+              <a href="#">
+                <span>Your</span>
+                <span>Prime</span>
+              </a>
+              <div class="cart">
+                <a href="#">
+                  <i class="fas fa-shopping-basket"></i>
+                </a>
+                <small>0</small>
+              </div>
+            </nav>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <i
-          class="fa fa-map-marker"
-          id="map"
-          aria-hidden="true"
-          style="color: white"
-        ></i
-        >Deliver to Ariel<br />Rome 13440
-      </div>
-      <div class="col-5" id="searchinput">
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon"
-            >All<br />
+    </header>
+    <main>
+      <div class="row blueBorder">
+        <div class="col-10">
+          <span style="font-size: 14px">
+            <i class="fa fa-bars"> All</i>
             <i
               class="fa fa-sort-desc"
               aria-hidden="true"
               style="color: black"
-            ></i
-          ></span>
-
-          <input
-            type="text"
-            class="form-control"
-            placeholder="search input"
-            aria-label="search input"
-            aria-describedby="basic-addon2"
-          />
-          <span class="input-group-text" id="basic-addon2"
-            ><i class="fas fa-search"></i
-          ></span>
+            ></i>
+          </span>
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion"
+              >Fashion</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc"
+              >Gift Cards</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/stores/node/20648519011?channel=discovbar?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics"
+              >Amazon Basics</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/stores/node/20648519011?channel=discovbar?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics"
+              >Amazon Basics</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books"
+              >Kindle Books</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again"
+              >Buy Again</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/business/register/org/landing?ref_=nav_cs_business_flyout"
+              >Amazon Business</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/gcx/Gifts-for-Everyone/gfhz/?ref_=nav_cs_giftfinder"
+              >Find A Gift</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a href="https://www.amazon.com/finds?ref_=nav_cs_foundit"
+              >#FoundItOnAmazon</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty"
+              >Beauty & Personal Care</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/Coupons/b/?_encoding=UTF8&node=2231352011&ref_=nav_cs_coupons"
+              >Coupons</a
+            ></span
+          >
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/pet-shops-dogs-cats-hamsters-kittens/b/?ie=UTF8&node=2619533011&ref_=nav_cs_pets"
+              >Pet Supplies</a
+            ></span
+          >
+        </div>
+        <div class="col-2 text-end">
+          <span style="font-size: 14px"
+            ><a
+              href="https://www.amazon.com/gp/cobrandcard/marketing.html/?ie=UTF8&plattr=PLCC_SWM_P_5BackS_Jan&pr=conplcc&ref_=nav_swm_PLCC_SWM_P_5BackS_Jan&pf_rd_p=b5f2aa30-2a39-40e6-ab7d-4f9eb49a0d76&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=5EFB3T1EKEJMV6J7W0KJ"
+              >5% Back On Shopping</a
+            ></span
+          >
         </div>
       </div>
-      <div class="col dropdown" id="flagicon">
-        <a
-          class="btn dropdown-toggle"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <i class="fas fa-flag-usa" style="color: white"></i>
-          <i
-            class="fa fa-sort-desc"
-            aria-hidden="true"
-            style="color: white"
-          ></i>
-        </a>
-
-        <ul
-          class="dropdown-menu"
-          aria-labelledby="dropdownMenuLink"
-          style="color: white"
-        >
-          <li>
-            <a class="dropdown-item" href="#"><input type="radio" />English</a>
-          </li>
-          <li>
-            <a class="dropdown-item" href="#"><input type="radio" />Spanish</a>
-          </li>
-          <li>
-            <a
-              class="dropdown-item"
-              href="https://www.amazon.com/gp/help/customer/display.html/ref=icp_flyout?ie=UTF8&nodeId=202085910"
-              >Learn More</a
-            >
-          </li>
-          <li>
-            <a class="dropdown-item" href="#">You are shopping on Amazon.com</a>
-          </li>
-          <li>
-            <a
-              class="dropdown-item"
-              href="https://www.amazon.com/gp/navigation-country/select-country/ref=icp_lop_mop_chg?preferencesReturnUrl=/"
-              >Change Country/Region</a
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="col" id="accounts">
-        <a
-          href="https://www.amazon.com/gp/css/homepage.html?ref_=nav_youraccount_btn"
-          style="color: white"
-          ><span>Hello, Ariel</span> <br /><span>Accounts & Lists</span></a
-        >
-      </div>
-      <div class="col style=color:white" id="orders">
-        <a
-          href="https://www.amazon.com/gp/css/order-history?ie=UTF8&ref_=nav_orders_first&"
-          style="color: white"
-          >Returns & <br />Orders</a
-        >
-      </div>
-      <div class="col" id="cart">
-        <div class="cart">
-          <a href="https://www.amazon.com/gp/cart/view.html?ref_=nav_cart">
-            <i class="fas fa-shopping-cart" style="color: white"></i>
-          </a>
+      <div class="row">
+        <div class="col-12" id="heroCol">
+          <a
+            href="https://www.amazon.com/stores/page/9C11E6D5-E4C4-43C0-80DA-FA828D18D930/?_encoding=UTF8&store_ref=SB_A064778236DG245CNICG8&pd_rd_plhdr=t&aaxitk=125e6d256115adc4173ee281478370fe&hsa_cr_id=7694698210701&lp_asins=B07R8GD47V%2CB07SK8X1ZQ%2CB07SKCTNNS&lp_query=goli&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_logo&pd_rd_w=T4tyN&pf_rd_p=488a18be-6d86-4de0-8607-bd4ea4b560f3&pd_rd_wg=MAw99&pf_rd_r=Q269FT1REMH43ZPGGT22&pd_rd_r=04be43cb-22f7-4672-b3d6-3eab5e8d1ef0"
+            ><img
+              src="../images/hero-background.jpeg"
+              class="img-fluid"
+              alt="background"
+          /></a>
         </div>
       </div>
-    </div>
-    <div class="row blueBorder">
-      <div class="col-10">
-        <span style="font-size: 14px">
-          <i class="fa fa-bars"> All</i>
-          <i
-            class="fa fa-sort-desc"
-            aria-hidden="true"
-            style="color: black"
-          ></i>
-        </span>
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/amazon-fashion/b/?ie=UTF8&node=7141123011&ref_=nav_cs_fashion"
-            >Fashion</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc"
-            >Gift Cards</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/stores/node/20648519011?channel=discovbar?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics"
-            >Amazon Basics</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/stores/node/20648519011?channel=discovbar?field-lbr_brands_browse-bin=AmazonBasics&ref_=nav_cs_amazonbasics"
-            >Amazon Basics</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/Kindle-eBooks/b/?ie=UTF8&node=154606011&ref_=nav_cs_kindle_books"
-            >Kindle Books</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again"
-            >Buy Again</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/business/register/org/landing?ref_=nav_cs_business_flyout"
-            >Amazon Business</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/gcx/Gifts-for-Everyone/gfhz/?ref_=nav_cs_giftfinder"
-            >Find A Gift</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a href="https://www.amazon.com/finds?ref_=nav_cs_foundit"
-            >#FoundItOnAmazon</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/Beauty-Makeup-Skin-Hair-Products/b/?ie=UTF8&node=3760911&ref_=nav_cs_beauty"
-            >Beauty & Personal Care</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/Coupons/b/?_encoding=UTF8&node=2231352011&ref_=nav_cs_coupons"
-            >Coupons</a
-          ></span
-        >
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/pet-shops-dogs-cats-hamsters-kittens/b/?ie=UTF8&node=2619533011&ref_=nav_cs_pets"
-            >Pet Supplies</a
-          ></span
-        >
-      </div>
-      <div class="col-2 text-end">
-        <span style="font-size: 14px"
-          ><a
-            href="https://www.amazon.com/gp/cobrandcard/marketing.html/?ie=UTF8&plattr=PLCC_SWM_P_5BackS_Jan&pr=conplcc&ref_=nav_swm_PLCC_SWM_P_5BackS_Jan&pf_rd_p=b5f2aa30-2a39-40e6-ab7d-4f9eb49a0d76&pf_rd_s=nav-sitewide-msg-text&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=5EFB3T1EKEJMV6J7W0KJ"
-            >5% Back On Shopping</a
-          ></span
-        >
-      </div>
-    </div>
-    <div class="row"  >
-      <div class="col-12" id="heroCol">
-        <a
-          href="https://www.amazon.com/stores/page/9C11E6D5-E4C4-43C0-80DA-FA828D18D930/?_encoding=UTF8&store_ref=SB_A064778236DG245CNICG8&pd_rd_plhdr=t&aaxitk=125e6d256115adc4173ee281478370fe&hsa_cr_id=7694698210701&lp_asins=B07R8GD47V%2CB07SK8X1ZQ%2CB07SKCTNNS&lp_query=goli&lp_slot=auto-sparkle-hsa-tetris&ref_=sbx_be_s_sparkle_lsi4d_logo&pd_rd_w=T4tyN&pf_rd_p=488a18be-6d86-4de0-8607-bd4ea4b560f3&pd_rd_wg=MAw99&pf_rd_r=Q269FT1REMH43ZPGGT22&pd_rd_r=04be43cb-22f7-4672-b3d6-3eab5e8d1ef0"
-          ><img
-            src="../images/hero-background.jpeg"
-            class="img-fluid"
-            alt="background"
-        /></a>
-      </div>
-    </div>
-    <div class="row gx-5" id="shopping">
-      <div class="col-4" id="keepshopping">
-        <div class="suggestedHeaders">Keep shopping for</div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Binging-Babish-Recipes-Recreated-Favorite/dp/1328589897/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
-              ><img
-                src="../images/babish.jpg"
-                class="img-fluid bookImage"
-                alt="babish"
+      <div class="row gx-5" id="shopping">
+        <div class="col-4" id="keepshopping">
+          <div class="suggestedHeaders">Keep shopping for</div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Binging-Babish-Recipes-Recreated-Favorite/dp/1328589897/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+                ><img
+                  src="../images/babish.jpg"
+                  class="img-fluid bookImage"
+                  alt="babish"
+                />
+              </a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Matty-Matheson-Home-Style-Cookery/dp/1419747487/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+              >
+                <img
+                  src="../images/mattmaeson.jpg"
+                  class="img-fluid bookImage"
+                  alt="matt matheson"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+                class="ellip"
+                >Binging With Babish</a
+              >
+            </div>
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Matty-Matheson-Home-Style-Cookery/dp/1419747487/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+                class="ellip"
+                >Matty Matheson: Home Style Cookery</a
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Joshua-Weissman-Unapologetic-Cookbook/dp/1615649980/ref=sr_1_1?crid=3KV731G4KMII4&keywords=joshua+weissman+cookbook&qid=1642955939&s=books&sprefix=josh%2Cstripbooks%2C96&sr=1-1"
+              >
+                <img
+                  src="../images/joshua.jpg"
+                  class="img-fluid bookImage"
+                  alt="joshua weissman"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+              >
+                <img
+                  src="../images/supersimple.jpg"
+                  class="img-fluid bookImage"
+                  alt="super simple"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Joshua-Weissman-Unapologetic-Cookbook/dp/1615649980/ref=sr_1_1?crid=3KV731G4KMII4&keywords=joshua+weissman+cookbook&qid=1642955939&s=books&sprefix=josh%2Cstripbooks%2C96&sr=1-1"
+                class="ellip"
+                >Joshua Weissman: An Unapologetic Cookbook</a
+              >
+            </div>
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
+                class="ellip"
+                >Half Baked Harvest Super Simple</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-4" id="buyagain">
+          <div class="suggestedHeaders">Buy Again</div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Scyavuru-Black-Fig-Jam-Ounce/dp/B01B047HFA?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01B047HFA&psc=1&ref_=pd_bap_d_rp_4_t"
+              >
+                <img
+                  src="../images/fig.jpg"
+                  class="img-fluid buyAgain"
+                  alt="fig spread"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/King-Arthur-Flour-Measure-Gluten/dp/B01JJ9H1Q8?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01JJ9H1Q8&psc=1&ref_=pd_bap_d_rp_3_t"
+              >
+                <img
+                  src="../images/gfflour.jpg"
+                  class="img-fluid buyAgain"
+                  alt="gluten free flour"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Wild-Berry-Incense-Sticks-Seller/dp/B016P3VFN6?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B016P3VFN6&psc=1&ref_=pd_bap_d_rp_24_t"
+              >
+                <img
+                  src="../images/incense.jpg"
+                  class="img-fluid buyAgain"
+                  alt="incense sticks"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Wonderful-Pistachios-Roasted-Salted-Ounce/dp/B0042DIZIU?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B0042DIZIU&psc=1&ref_=pd_bap_d_rp_1_t"
+              >
+                <img
+                  src="../images/pistachios.jpg"
+                  class="img-fluid buyAgain"
+                  alt="pistachios"
+              /></a>
+            </div>
+          </div>
+          <div class="row" id="shopping">
+            <div class="col" id="shopessentials">
+              Shop your everyday essentials
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" style="font-size: 14px">
+              <a
+                href="https://www.amazon.com/gp/buyagain/ref=pd_gwd_bag_pd_gw_rp?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDA0MkRJWklVLEIwMUpKOUgxUTgsQjA3Qko0TDRRTCxCMDFCMDQ3SEZBIiwiY3VzdG9tZXJJZCI6IkEyVFY3WlBJSjVYTjZXIn0%3D&pd_rd_w=qmuAV&pf_rd_p=81a808fc-44cb-4819-8114-bb1b8453adc7&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=5c6d002f-d751-42ae-9f16-6a26cbc36479&pd_rd_wg=3fP2E"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="suggestedHeaders">Valentine's Day gifts</div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Ceramic-Decorative-Bracelet-Earrings-Engagement/dp/B08L6LLZQ2/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
+                ><img
+                  src="../images/heartplate.jpg"
+                  class="img-fluid vdayImage"
+                  alt="heart plate"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/Bedsure-Heated-Blanket-Throw-Electric/dp/B08CY5KKFX/?_encoding=UTF8&pd_rd_w=kH2J8&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_wg=FMwqg&ref_=pd_gw_test_reftag"
+                ><img
+                  src="/images/blanket.jpg"
+                  class="img-fluid vdayImage"
+                  alt="blanket"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Ceramic-Decorative-Bracelet-Earrings-Engagement/dp/B08L6LLZQ2/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
+                class="ellip"
+                >Heart Ring Dish Ring Holder White & Decorative Gold</a
+              >
+            </div>
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/Bedsure-Heated-Blanket-Throw-Electric/dp/B08CY5KKFX/?_encoding=UTF8&pd_rd_w=kH2J8&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_wg=FMwqg&ref_=pd_gw_test_reftag"
+                class="ellip"
+                >Bedsure Heated Blanket Electric Throw</a
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a
+                href="https://www.amazon.com/FaceTory-Portable-Beauty-Fridge-Capacity/dp/B07THDQXF8/?_encoding=UTF8&pd_rd_w=mLiDp&pf_rd_p=03bef33a-a357-4fe3-9505-7fd4d6236957&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=2f72004b-47ee-4fa9-9afb-687f6c61000a&pd_rd_wg=kt8e9&ref_=pd_gw_ci_mcx_mr_hp_d"
+                ><img
+                  src="../images/facetory.jpg"
+                  class="img-fluid vdayImage"
+                  alt="face fridge"
+              /></a>
+            </div>
+            <div class="col">
+              <a
+                href="https://www.amazon.com/BonNoces-Portable-Electric-Kettle-Stainless/dp/B07JHKPF57/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
+                ><img
+                  src="/images/kettle.jpg"
+                  class="img-fluid vdayImage"
+                  alt="kettle"
+              /></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/FaceTory-Portable-Beauty-Fridge-Capacity/dp/B07THDQXF8/?_encoding=UTF8&pd_rd_w=mLiDp&pf_rd_p=03bef33a-a357-4fe3-9505-7fd4d6236957&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=2f72004b-47ee-4fa9-9afb-687f6c61000a&pd_rd_wg=kt8e9&ref_=pd_gw_ci_mcx_mr_hp_d"
+                class="ellip"
+                >FaceTory Portable Coral Beauty Fridge</a
+              >
+            </div>
+            <div class="col ellip text-center">
+              <a
+                href="https://www.amazon.com/BonNoces-Portable-Electric-Kettle-Stainless/dp/B07JHKPF57/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
+                class="ellip"
+                >BonNoces Portable Electric Kettle</a
+              >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col" style="font-size: 14px">
+              <a
+                href="https://www.amazon.com/gcx/Home-&-D%C3%A9cor/gfhz/events/?_encoding=UTF8&canBeEGifted=false&canBeGiftWrapped=false&categoryId=HGG-cat-1&isLimitedTimeOffer=false&isPrime=false&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_w=kH2J8&pd_rd_wg=FMwqg&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&ref_=pd_gw_test_reftag&scrollState=eyJpdGVtSW5kZXgiOjAsInNjcm9sbE9mZnNldCI6LTMzLjEyNX0%3D&sectionManagerState=eyJzZWN0aW9uVHlwZUVuZEluZGV4Ijp7ImFtYWJvdCI6MH19&subcategoryIds=HGG-cat-1%3AGifts"
+                >Explore Gift Ideas</a
+              >
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="row" id="backToTop"><a href="#">Back To Top</a></div>
+          <div class="row" id="footerMenu">
+            <div class="col-3">
+              Get To Know Us
+              <ul class="list-group">
+                <li class="list-group-item">Careers</li>
+                <li class="list-group-item">Blog</li>
+                <li class="list-group-item">About Amazon</li>
+                <li class="list-group-item">Sustainability</li>
+                <li class="list-group-item">Press Center</li>
+                <li class="list-group-item">Investor Relations</li>
+                <li class="list-group-item">Amazon Devices</li>
+              </ul>
+            </div>
+            <div class="col-3">
+              Make Money With Us
+              <ul class="list-group">
+                <li class="list-group-item">Sell Products On Amazon</li>
+                <li class="list-group-item">Sell Apps on Amazon</li>
+                <li class="list-group-item">Become An Affiliate</li>
+                <li class="list-group-item">Become A Delivery Driver</li>
+                <li class="list-group-item">
+                  Start A Package Delivery Business
+                </li>
+                <li class="list-group-item">Advertise Your Products</li>
+                <li class="list-group-item">Self-Publish With Us</li>
+                <li class="list-group-item">Host An Amazon Hub</li>
+                <li class="list-group-item">> See More Ways To Make Money</li>
+              </ul>
+            </div>
+            <div class="col-3">
+              Amazon Payment Products
+              <ul class="list-group">
+                <li class="list-group-item">
+                  Amazon Rewards Visa Signature Cards
+                </li>
+                <li class="list-group-item">Amazon.com Store Card</li>
+                <li class="list-group-item">Amazon Secured Card</li>
+                <li class="list-group-item">Amazon Business Card</li>
+                <li class="list-group-item">Amazon Business Line Of Credit</li>
+                <li class="list-group-item">Shop With Points</li>
+                <li class="list-group-item">Credit Card Marketplace</li>
+                <li class="list-group-item">Reload Your Balance</li>
+                <li class="list-group-item">Amazon Currency Converter</li>
+              </ul>
+            </div>
+            <div class="col-3">
+              Let Us Help You
+              <ul class="list-group">
+                <li class="list-group-item">Amazon and COVID-19</li>
+                <li class="list-group-item">Your Account</li>
+                <li class="list-group-item">Your Orders</li>
+                <li class="list-group-item">Shipping Rates & Policies</li>
+                <li class="list-group-item">Amazon Prime</li>
+                <li class="list-group-item">Returns & Replacements</li>
+                <li class="list-group-item">Manage Your Content and Devices</li>
+                <li class="list-group-item">Amazon Assistant</li>
+                <li class="list-group-item">Help</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row" id="footer">
+            <div class="col-6 text-end">
+              <img
+                src="../images/white-amazon-logo-white.png"
+                id="logo2"
+                alt="logo2"
               />
-            </a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Matty-Matheson-Home-Style-Cookery/dp/1419747487/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
-            >
-              <img
-                src="../images/mattmaeson.jpg"
-                class="img-fluid bookImage"
-                alt="matt matheson"
-            /></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m" class="ellip"
-              >Binging With Babish</a
-            >
-          </div>
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Matty-Matheson-Home-Style-Cookery/dp/1419747487/?_encoding=UTF8&pd_rd_w=t6uRv&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=6a23a277-1613-4702-a618-be85f1eb9e2f&pd_rd_wg=RE2Qc&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
-              class="ellip"
-              >Matty Matheson: Home Style Cookery</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Joshua-Weissman-Unapologetic-Cookbook/dp/1615649980/ref=sr_1_1?crid=3KV731G4KMII4&keywords=joshua+weissman+cookbook&qid=1642955939&s=books&sprefix=josh%2Cstripbooks%2C96&sr=1-1"
-            >
-              <img
-                src="../images/joshua.jpg"
-                class="img-fluid bookImage"
-                alt="joshua weissman"
-            /></a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m"
-            >
-              <img
-                src="../images/supersimple.jpg"
-                class="img-fluid bookImage"
-                alt="super simple"
-            /></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Joshua-Weissman-Unapologetic-Cookbook/dp/1615649980/ref=sr_1_1?crid=3KV731G4KMII4&keywords=joshua+weissman+cookbook&qid=1642955939&s=books&sprefix=josh%2Cstripbooks%2C96&sr=1-1" class="ellip"
-              >Joshua Weissman: An Unapologetic Cookbook</a
-            >
-          </div>
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Half-Baked-Harvest-Super-Simple/dp/0525577076/?_encoding=UTF8&pd_rd_w=xmcMt&pf_rd_p=29505bbf-38bd-47ef-8224-a5dd0cda2bae&pf_rd_r=GNJ8EZED70G27Y0M8CKG&pd_rd_r=f96f4e4c-e31e-4089-a7b1-7f2d6b683c20&pd_rd_wg=YZ53J&ref_=pd_gw_ci_mcx_mr_hp_atf_m" class="ellip"
-              >Half Baked Harvest Super Simple</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-4" id="buyagain">
-        <div class="suggestedHeaders">Buy Again</div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Scyavuru-Black-Fig-Jam-Ounce/dp/B01B047HFA?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01B047HFA&psc=1&ref_=pd_bap_d_rp_4_t"
-            >
-              <img
-                src="../images/fig.jpg"
-                class="img-fluid buyAgain"
-                alt="fig spread"
-            /></a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/King-Arthur-Flour-Measure-Gluten/dp/B01JJ9H1Q8?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B01JJ9H1Q8&psc=1&ref_=pd_bap_d_rp_3_t"
-            >
-              <img
-                src="../images/gfflour.jpg"
-                class="img-fluid buyAgain"
-                alt="gluten free flour"
-            /></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Wild-Berry-Incense-Sticks-Seller/dp/B016P3VFN6?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B016P3VFN6&psc=1&ref_=pd_bap_d_rp_24_t"
-            >
-              <img
-                src="../images/incense.jpg"
-                class="img-fluid buyAgain"
-                alt="incense sticks"
-            /></a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Wonderful-Pistachios-Roasted-Salted-Ounce/dp/B0042DIZIU?pd_rd_w=u8usP&pf_rd_p=ee521540-07c2-4687-9605-13c98e32ab2c&pf_rd_r=SVG3BCM565EX3YYBQEVB&pd_rd_r=839486e6-cfd1-4816-b885-c8bbaeb603be&pd_rd_wg=VsTOC&pd_rd_i=B0042DIZIU&psc=1&ref_=pd_bap_d_rp_1_t"
-            >
-              <img
-                src="../images/pistachios.jpg"
-                class="img-fluid buyAgain"
-                alt="pistachios"
-            /></a>
-          </div>
-        </div>
-        <div class="row" id="shopping">
-          <div class="col" id="shopessentials">
-            Shop your everyday essentials
-          </div>
-        </div>
-        <div class="row">
-          <div class="col" style="font-size: 14px">
-            <a
-              href="https://www.amazon.com/gp/buyagain/ref=pd_gwd_bag_pd_gw_rp?ie=UTF8&ats=eyJleHBsaWNpdENhbmRpZGF0ZXMiOiJCMDA0MkRJWklVLEIwMUpKOUgxUTgsQjA3Qko0TDRRTCxCMDFCMDQ3SEZBIiwiY3VzdG9tZXJJZCI6IkEyVFY3WlBJSjVYTjZXIn0%3D&pd_rd_w=qmuAV&pf_rd_p=81a808fc-44cb-4819-8114-bb1b8453adc7&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=5c6d002f-d751-42ae-9f16-6a26cbc36479&pd_rd_wg=3fP2E"
-              >See More</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="suggestedHeaders">Valentine's Day gifts</div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Ceramic-Decorative-Bracelet-Earrings-Engagement/dp/B08L6LLZQ2/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
-              ><img
-                src="../images/heartplate.jpg"
-                class="img-fluid vdayImage"
-                alt="heart plate"
-            /></a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/Bedsure-Heated-Blanket-Throw-Electric/dp/B08CY5KKFX/?_encoding=UTF8&pd_rd_w=kH2J8&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_wg=FMwqg&ref_=pd_gw_test_reftag"
-              ><img src="/images/blanket.jpg" class="img-fluid vdayImage" alt="blanket"
-            /></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Ceramic-Decorative-Bracelet-Earrings-Engagement/dp/B08L6LLZQ2/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag" class="ellip"
-              >Heart Ring Dish Ring Holder White & Decorative Gold</a
-            >
-          </div>
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/Bedsure-Heated-Blanket-Throw-Electric/dp/B08CY5KKFX/?_encoding=UTF8&pd_rd_w=kH2J8&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_wg=FMwqg&ref_=pd_gw_test_reftag" class="ellip"
-              >Bedsure Heated Blanket Electric Throw</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <a
-              href="https://www.amazon.com/FaceTory-Portable-Beauty-Fridge-Capacity/dp/B07THDQXF8/?_encoding=UTF8&pd_rd_w=mLiDp&pf_rd_p=03bef33a-a357-4fe3-9505-7fd4d6236957&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=2f72004b-47ee-4fa9-9afb-687f6c61000a&pd_rd_wg=kt8e9&ref_=pd_gw_ci_mcx_mr_hp_d"
-              ><img
-                src="../images/facetory.jpg"
-                class="img-fluid vdayImage"
-                alt="face fridge"
-            /></a>
-          </div>
-          <div class="col">
-            <a
-              href="https://www.amazon.com/BonNoces-Portable-Electric-Kettle-Stainless/dp/B07JHKPF57/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag"
-              ><img src="/images/kettle.jpg" class="img-fluid vdayImage" alt="kettle"
-            /></a>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/FaceTory-Portable-Beauty-Fridge-Capacity/dp/B07THDQXF8/?_encoding=UTF8&pd_rd_w=mLiDp&pf_rd_p=03bef33a-a357-4fe3-9505-7fd4d6236957&pf_rd_r=BACWS6FZCRZ2K9XSN4JN&pd_rd_r=2f72004b-47ee-4fa9-9afb-687f6c61000a&pd_rd_wg=kt8e9&ref_=pd_gw_ci_mcx_mr_hp_d" class="ellip"
-              >FaceTory Portable Coral Beauty Fridge</a
-            >
-          </div>
-          <div class="col ellip text-center">
-            <a
-              href="https://www.amazon.com/BonNoces-Portable-Electric-Kettle-Stainless/dp/B07JHKPF57/?_encoding=UTF8&pd_rd_w=uGbQq&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=YA99JGTBBE2ACH4Y48MA&pd_rd_r=8911172a-3829-4c7b-b318-86474b4dee98&pd_rd_wg=dJ8qc&ref_=pd_gw_test_reftag" class="ellip"
-              >BonNoces Portable Electric Kettle</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div class="col" style="font-size: 14px">
-            <a
-              href="https://www.amazon.com/gcx/Home-&-D%C3%A9cor/gfhz/events/?_encoding=UTF8&canBeEGifted=false&canBeGiftWrapped=false&categoryId=HGG-cat-1&isLimitedTimeOffer=false&isPrime=false&pd_rd_r=37c339d7-fcc4-44a3-8ec4-fcfb48110be8&pd_rd_w=kH2J8&pd_rd_wg=FMwqg&pf_rd_p=668282e1-539e-4d15-92be-ec22269198d4&pf_rd_r=Q6GM07Y220VT6YZ167MC&ref_=pd_gw_test_reftag&scrollState=eyJpdGVtSW5kZXgiOjAsInNjcm9sbE9mZnNldCI6LTMzLjEyNX0%3D&sectionManagerState=eyJzZWN0aW9uVHlwZUVuZEluZGV4Ijp7ImFtYWJvdCI6MH19&subcategoryIds=HGG-cat-1%3AGifts"
-              >Explore Gift Ideas</a
-            >
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="row" id="backToTop"><a href="#">Back To Top</a></div>
-        <div class="row" id="footerMenu">
-          <div class="col-3">
-            Get To Know Us
-            <ul class="list-group">
-              <li class="list-group-item">Careers</li>
-              <li class="list-group-item">Blog</li>
-              <li class="list-group-item">About Amazon</li>
-              <li class="list-group-item">Sustainability</li>
-              <li class="list-group-item">Press Center</li>
-              <li class="list-group-item">Investor Relations</li>
-              <li class="list-group-item">Amazon Devices</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            Make Money With Us
-            <ul class="list-group">
-              <li class="list-group-item">Sell Products On Amazon</li>
-              <li class="list-group-item">Sell Apps on Amazon</li>
-              <li class="list-group-item">Become An Affiliate</li>
-              <li class="list-group-item">Become A Delivery Driver</li>
-              <li class="list-group-item">Start A Package Delivery Business</li>
-              <li class="list-group-item">Advertise Your Products</li>
-              <li class="list-group-item">Self-Publish With Us</li>
-              <li class="list-group-item">Host An Amazon Hub</li>
-              <li class="list-group-item">> See More Ways To Make Money</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            Amazon Payment Products
-            <ul class="list-group">
-              <li class="list-group-item">
-                Amazon Rewards Visa Signature Cards
-              </li>
-              <li class="list-group-item">Amazon.com Store Card</li>
-              <li class="list-group-item">Amazon Secured Card</li>
-              <li class="list-group-item">Amazon Business Card</li>
-              <li class="list-group-item">Amazon Business Line Of Credit</li>
-              <li class="list-group-item">Shop With Points</li>
-              <li class="list-group-item">Credit Card Marketplace</li>
-              <li class="list-group-item">Reload Your Balance</li>
-              <li class="list-group-item">Amazon Currency Converter</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            Let Us Help You
-            <ul class="list-group">
-              <li class="list-group-item">Amazon and COVID-19</li>
-              <li class="list-group-item">Your Account</li>
-              <li class="list-group-item">Your Orders</li>
-              <li class="list-group-item">Shipping Rates & Policies</li>
-              <li class="list-group-item">Amazon Prime</li>
-              <li class="list-group-item">Returns & Replacements</li>
-              <li class="list-group-item">Manage Your Content and Devices</li>
-              <li class="list-group-item">Amazon Assistant</li>
-              <li class="list-group-item">Help</li>
-            </ul>
-          </div>
-        </div>
-        <div class=row id="footer">
-          <div class="col-6 text-center">
-            <img src="../images/white-amazon-logo-white.png" id="logo2" alt="logo2" />
-          </div>
-          <div class="col-6 text-end">
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-outline-primary">
-                Language
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Country
-              </button>
+            </div>
+            <div class="col-6">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-primary">
+                  Language
+                </button>
+                <button type="button" class="btn btn-outline-primary">
+                  Country
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
