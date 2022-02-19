@@ -276,3 +276,19 @@ nav span:nth-child(2) {
 #list-group {
   background-color: #222f3e;
 }
+
+.subnavLinks {
+  background-color: #232f3e;
+  color: white;
+}
+
+.subnavLinks a {
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.subnavLinks a:hover {
+    color: rgba(255, 255, 255, 0.739);
+  }
+}
